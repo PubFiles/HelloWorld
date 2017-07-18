@@ -1,0 +1,10 @@
+dist: trusty
+
+before_script:
+  - "echo 'starting'"
+
+
+
+script:
+    systemd-nspawn --help
+
